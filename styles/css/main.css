@@ -151,9 +151,42 @@ body {
   width: 100%;
   border: solid red;
 }
-.container__header {
-  background-color: aqua;
-}
 .container--sm {
   max-width: 840px;
+}
+
+.header {
+  background-color: rgba(222, 116, 43, 0.9);
+}
+.header__row {
+  border-bottom: solid 2px #fcfcfc;
+  padding-top: 40px;
+  padding-bottom: 32px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header__nav-list-links, .header__nav-list-social {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__nav-list-links a {
+  font-size: 26px;
+  line-height: 19px;
+  color: #000;
+  font-weight: 300;
+  transition: all 0.3s ease-in-out;
+}
+.header__nav-list-links a:hover {
+  color: #fcfcfc;
+}
+
+.header__nav-list-social a img {
+  transition: all 0.2s ease-in-out;
+}
+.header__nav-list-social a img:hover {
+  transform: scale(1.2);
 }

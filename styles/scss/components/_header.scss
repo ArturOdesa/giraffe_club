@@ -1,0 +1,43 @@
+@use "../base/vars" as *;
+
+.header {
+  background-color: $bg_color;
+
+  &__row {
+    border-bottom: solid 2px $lightgrey;
+    padding-top: 40px;
+    padding-bottom: 32px;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+
+    &-list-links,
+    &-list-social {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+  }
+}
+
+.header__nav-list-links a {
+  font-size: 26px;
+  line-height: 19px;
+  color: #000;
+  font-weight: 300;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: $lightgrey;
+  }
+}
+
+.header__nav-list-social a img {
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
