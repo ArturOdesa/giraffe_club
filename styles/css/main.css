@@ -143,3 +143,17 @@ body {
   overflow-x: hidden;
   font-family: "Bookman regular", sans-serif;
 }
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1680px;
+  width: 100%;
+  border: solid red;
+}
+.container__header {
+  background-color: aqua;
+}
+.container--sm {
+  max-width: 840px;
+}
