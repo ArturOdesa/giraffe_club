@@ -151,12 +151,22 @@ body {
   width: 100%;
   border: solid red;
 }
+.container__header {
+  padding-top: 154px;
+  background-image: url("../../../assets/images/header/header-image-giraffe.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
 .container--sm {
   max-width: 840px;
 }
 
 .header {
   background-color: rgba(222, 116, 43, 0.9);
+  min-height: 1080px;
+  background-image: url("../../../assets/images/header/header-triangle.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 .header__row {
   border-bottom: solid 2px #fcfcfc;
@@ -189,4 +199,28 @@ body {
 }
 .header__nav-list-social a img:hover {
   transform: scale(1.2);
+}
+
+.header__body-title {
+  font-family: "Bookman bold", sans-serif;
+  font-size: 90px;
+  margin-bottom: 24px;
+}
+.header__body-text {
+  font-size: 50px;
+  line-height: 65px;
+  width: 55%;
+  margin-bottom: 90px;
+}
+.header__body-button {
+  border-radius: 10px;
+  padding: 20px 42px;
+  background-color: rgba(252, 252, 252, 0.7);
+  font-size: 26px;
+  transition: 0.2s ease-in-out;
+  margin-bottom: 230px;
+}
+.header__body-button:hover {
+  background-color: #fcfcfc;
+  transform: scale(1.02);
 }

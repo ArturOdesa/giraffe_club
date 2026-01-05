@@ -48,7 +48,10 @@ body {
   border: solid red;
 
   &__header {
-    background-color: aqua;
+    padding-top: 154px;
+    background-image: url("../../../assets/images/header/header-image-giraffe.png");
+    background-repeat: no-repeat;
+    background-position: right;
   }
 
   &--sm {

@@ -2,6 +2,10 @@
 
 .header {
   background-color: $bg_color;
+  min-height: 1080px;
+  background-image: url("../../../assets/images/header/header-triangle.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
 
   &__row {
     border-bottom: solid 2px $lightgrey;
@@ -39,5 +43,34 @@
 
   &:hover {
     transform: scale(1.2);
+  }
+}
+
+.header__body {
+  &-title {
+    font-family: "Bookman bold", sans-serif;
+    font-size: 90px;
+    margin-bottom: 24px;
+  }
+
+  &-text {
+    font-size: 50px;
+    line-height: 65px;
+    width: 55%;
+    margin-bottom: 90px;
+  }
+
+  &-button {
+    border-radius: 10px;
+    padding: 20px 42px;
+    background-color: rgba($lightgrey, 0.7);
+    font-size: 26px;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 230px;
+
+    &:hover {
+      background-color: rgba($lightgrey, 1);
+      transform: scale(1.02);
+    }
   }
 }
