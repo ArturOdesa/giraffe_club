@@ -12,6 +12,7 @@
 }
 
 /* Links */
+
 a,
 a:link,
 a:visited {
@@ -23,6 +24,7 @@ a:hover {
 }
 
 /* Common */
+
 aside,
 nav,
 footer,
@@ -63,6 +65,7 @@ address {
 }
 
 /* Form */
+
 input,
 textarea,
 button,
@@ -78,7 +81,7 @@ input::-ms-clear {
 }
 
 button,
-input[type=submit] {
+input[type="submit"] {
   display: inline-block;
   box-shadow: none;
   background-color: transparent;
