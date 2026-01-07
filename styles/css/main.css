@@ -200,7 +200,7 @@ body {
   min-height: 1080px;
   background-image: url("../../../assets/images/header/header-triangle.png");
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right center;
 }
 .header__row {
   border-bottom: solid 2px #fcfcfc;

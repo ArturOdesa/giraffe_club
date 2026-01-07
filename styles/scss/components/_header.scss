@@ -1,11 +1,13 @@
 @use "../base/vars" as *;
+@use "../base/mixins" as *;
 
 .header {
   background-color: $bg_color;
   min-height: 1080px;
-  background-image: url("../../../assets/images/header/header-triangle.png");
-  background-repeat: no-repeat;
-  background-position: right bottom;
+
+  @include bg_image("../../../assets/images/header/header-triangle.png");
+
+  background-position: right center;
 
   &__row {
     border-bottom: solid 2px $lightgrey;
