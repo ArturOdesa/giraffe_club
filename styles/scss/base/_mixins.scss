@@ -9,3 +9,12 @@
       border-radius: 50%;
       padding: 8px;
 }
+
+@mixin decorListItem($gap) {
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 1.3;
+    display: flex;
+    column-gap: $gap + px;
+    align-items: center;
+}
