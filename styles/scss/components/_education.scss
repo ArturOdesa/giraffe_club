@@ -1,0 +1,87 @@
+@use "../base/mixins" as *;
+
+.education__body {
+  display: flex;
+  flex-direction: column;
+  gap: 88px;
+  padding-top: 98px;
+}
+
+.education__body-top {
+  display: flex;
+  justify-content: space-between;
+
+  &-right {
+    width: 956px;
+    height: 505px;
+    @include bg_image(
+      "../../../assets/images/section/.education/education_bg.png"
+    );
+    background-size: contain;
+    border-radius: 14px;
+    position: relative;
+    right: 0;
+    bottom: -24px;
+  }
+
+  &-left {
+    padding-top: -10px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.education__body-top-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.education__body-item {
+  @include decorListItem(20);
+  & i {
+    @include cyrcleNumber();
+  }
+}
+
+.education__body-bottom {
+  &-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    & ol {
+      display: flex;
+      justify-content: flex-start;
+
+      & li:first-child {
+        margin-right: 248px;
+      }
+
+      & li:last-child {
+        margin-left: 284px;
+      }
+    }
+
+    & ul {
+      font-weight: 300;
+      font-size: 26px;
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      column-gap: 144px;
+      padding-left: 86px;
+
+      li {
+        width: 26%;
+
+
+        &:last-child {
+          width: 27%;
+          margin-left: 28px;
+        }
+      }
+    }
+  }
+}
