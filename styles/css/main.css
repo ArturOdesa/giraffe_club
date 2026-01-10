@@ -438,3 +438,47 @@ body {
   width: 27%;
   margin-left: 28px;
 }
+
+.travels__title {
+  margin-bottom: 48px;
+}
+
+.travels__text {
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 1.3;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-bottom: 48px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+.travels__wrapper {
+  grid-template-columns: 1fr 3fr;
+}
+.travels__wrapper img {
+  border-radius: 14px;
+}
+.travels__wrapper-right {
+  grid-template-rows: 38% 61%;
+}
+.travels__wrapper-right--top {
+  grid-template-columns: 54% 45%;
+}
+.travels__wrapper-right--bottom {
+  grid-template-columns: 41% 58%;
+}
+.travels__wrapper-right--bottom .left-photo {
+  height: 99%;
+}
+.travels__wrapper-right--bottom--rs {
+  grid-template-rows: 64% 35%;
+}
+.travels__wrapper-right--bottom--rs--bottom {
+  grid-template-columns: 40% 60%;
+}
