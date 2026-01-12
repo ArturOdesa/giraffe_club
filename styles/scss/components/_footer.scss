@@ -1,0 +1,64 @@
+@use "../base/vars" as *;
+
+.footer {
+  background-color: $bg_color;
+
+  &__title {
+    font-size: 41px;
+    font-weight: 600;
+    font-family: "Bookman bold", sans-serif;
+  }
+
+  &__contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+  }
+
+  &__contacts-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+    & a {
+      color: #000;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        color: $lightgrey;
+      }
+    }
+  }
+}
+.footer__wrapper {
+  padding: 112px 0 124px;
+  display: flex;
+  gap: 144px;
+  align-items: center;
+
+  & div:last-child {
+    margin-left: auto;
+  }
+}
+
+.footer__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+
+  &-title {
+    font-size: 18px;
+    width: 105%;
+  }
+
+  &-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
