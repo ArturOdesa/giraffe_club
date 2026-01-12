@@ -540,7 +540,56 @@ body {
 
 .team__gallery-btn svg {
   transition: 0.2s ease-in-out;
+  transform: scale(1.3);
 }
 .team__gallery-btn svg:hover {
-  transform: scale(1.1);
+  transform: scale(1.4);
+}
+
+.references__holder {
+  display: flex;
+  justify-content: space-between;
+  gap: 68px;
+  align-items: center;
+}
+.references__holder-btn:first-child {
+  margin-left: 16px;
+}
+.references__holder-btn:last-child {
+  margin-right: 16px;
+}
+.references__holder-btn svg {
+  transition: 0.2s ease-in-out;
+  transform: scale(2.5);
+}
+.references__holder-btn svg:hover {
+  transform: scale(2.6);
+}
+.references__holder-comment {
+  padding: 0 76px 48px 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: rgba(222, 116, 43, 0.9);
+  border-radius: 20px;
+}
+.references__holder-comment--top {
+  padding-left: 8px;
+  padding-bottom: 18px;
+  padding-top: 48px;
+  border-bottom: solid 2px #fcfcfc;
+  text-align: left;
+  background-image: url("../../../assets/images/section/.references/bg_image_references.png");
+  background-repeat: no-repeat;
+  background-position: right bottom -5px;
+}
+.references__holder-comment--top h3 {
+  font-size: 34px;
+  line-height: 1.3;
+}
+.references__holder-comment--top span {
+  font-size: 26px;
+}
+.references__holder-comment--bottom {
+  font-size: 26px;
 }

@@ -1,0 +1,61 @@
+@use "../base/vars" as *;
+@use "../base/mixins" as *;
+
+.references__holder {
+  display: flex;
+  justify-content: space-between;
+  gap: 68px;
+  align-items: center;
+
+  &-btn {
+    &:first-child {
+        margin-left: 16px;
+    }
+
+    &:last-child {
+        margin-right: 16px;
+    }
+    svg {
+      transition: 0.2s ease-in-out;
+      transform: scale(2.5);
+
+      &:hover {
+        transform: scale(2.6);
+      }
+    }
+  }
+
+  &-comment {
+    padding: 0 76px 48px 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: $bg_color;
+    border-radius: 20px;
+
+    &--top {
+      padding-left: 8px;
+      padding-bottom: 18px;
+      padding-top: 48px;
+      border-bottom: solid 2px $lightgrey;
+      text-align: left;
+      @include bg_image(
+        "../../../assets/images/section/.references/bg_image_references.png"
+      );
+      background-position: right bottom -5px;
+
+      h3 {
+        font-size: 34px;
+        line-height: 1.3;
+      }
+
+      span {
+        font-size: 26px;
+      }
+    }
+
+    &--bottom {
+      font-size: 26px;
+    }
+  }
+}
