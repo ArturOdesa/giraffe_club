@@ -419,7 +419,7 @@ body {
   margin-right: 248px;
 }
 .education__body-bottom-lists ol li:last-child {
-  margin-left: 284px;
+  margin-left: auto;
 }
 .education__body-bottom-lists ul {
   font-weight: 300;
