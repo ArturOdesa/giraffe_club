@@ -61,13 +61,11 @@ form.addEventListener("submit", (e) => {
 function closeModal() {
   modal.classList.remove("show");
   modal.classList.add("hidden");
-  formHolder.classList.remove("hidden");
-  formComplete.classList.add("hidden");
+  formHolder.classList.remove("hidden", "inactive");
+  formComplete.classList.add("hidden", "active");
   form.reset();
   form.name.classList.remove("required");
   form.phone.classList.remove("required");
-  formHolder.classList.remove("inactive");
-  formComplete.classList.remove("active");
 }
 
 function checkFormValidation() {
