@@ -10,6 +10,45 @@
 
 <body>
     <header class="header">
+        <div class="modal hidden" id="modal">
+            <div class="form__holder" id="formHolder">
+                <div class="form__holder-close">
+                    <button id="closeModalBtnOne">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L22 22" stroke="black" stroke-width="2" stroke-linecap="round" />
+                            <path d="M21.9639 2.83325L2.8335 21.9637" stroke="black" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="form__title">
+                    <h3 class="title-3" id="titleThird"></h3>
+                </div>
+                <form class="form">
+                    <input placeholder="Ім’я" type="text" value="" name="name">
+                    <input type="tel" placeholder="Номер тел." name="phone" value="">
+                    <button class="orange-btn" id="sendFormBtn">Надіслати</button>
+                </form>
+            </div>
+            <div class="form__holder form__complete hidden" id='formComplete'>
+                <div class="form__holder-close">
+                    <button id="closeModalBtnTwo">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L22 22" stroke="black" stroke-width="2" stroke-linecap="round" />
+                            <path d="M21.9639 2.83325L2.8335 21.9637" stroke="black" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="form__title">
+                    <h3 class="title-3">Дякуємо!</h3>
+                </div>
+                <div class="form__title">
+                    <h3 class="title-3">Ваш запит надіслано.
+                        Чекайте дзвінка</h3>
+                </div>
+            </div>
+        </div>
         <div class="header__row">
             <div class="container">
                 <nav class="header__nav">
@@ -34,7 +73,7 @@
                 <h1 class="header__body-title">Giraffe Club</h1>
                 <p class="header__body-text">Офіційний сертифікований центр підготовки до міжнародних екзаменів Cambrige
                 </p>
-                <button class="header__body-button">Отримати консультацію</button>
+                <button class="header__body-button" id="headerRequestBtn">Отримати консультацію</button>
             </div>
         </div>
         </div>
@@ -98,7 +137,7 @@
                         <li class="benefits__body-item"><i>07</i><span>Підготовка дітей до школи</span></li>
                         <li class="benefits__body-item"><i>08</i><span>Літній табір</span></li>
                     </ol>
-                    <button class="benefits__body-button">Залишити заявку</button>
+                    <button class="benefits__body-button" id="benefitsRequestBtn">Залишити заявку</button>
                 </div>
         </section>
         <section class="section education" id="education">
@@ -215,7 +254,7 @@
                         </article>
                         <article class="team__gallery-card front_view">
                             <img src="./assets/images/section/.team/card2.png">
-                            <h3 class="front_view__title">Ольга Мануйлова</h3>
+                            <h3 class="front_view__title title-3">Ольга Мануйлова</h3>
                             <div class="front_view__text">
                                 <p>Засновниця школи.</p>
                                 <span>Має вищу педагогічну освіту.
@@ -329,5 +368,6 @@
         </div>
     </footer>
 </body>
+<script src="./scripts/main.js"></script>
 
 </html>
