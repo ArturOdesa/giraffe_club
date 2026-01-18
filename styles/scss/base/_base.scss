@@ -3,37 +3,37 @@
 
 @font-face {
   font-family: "Bookman regular";
-  src: url(../../../assets/fonts/bookman/BookmanOldStyleRegular.ttf);
+  src: url(../../assets/fonts/bookman/BookmanOldStyleRegular.ttf);
 }
 
 @font-face {
   font-family: "Bookman bold";
-  src: url(../../../assets/fonts/bookman/BookmanOldStyleBold.ttf);
+  src: url(../../assets/fonts/bookman/BookmanOldStyleBold.ttf);
 }
 
 @font-face {
   font-family: "Roboto regular";
-  src: url(../../../assets/fonts/roboto/Roboto-Regular.ttf);
+  src: url(../../assets/fonts/roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
   font-family: "Roboto bold";
-  src: url(../../../assets/fonts/roboto/Roboto-Bold.ttf);
+  src: url(../../assets/fonts/roboto/Roboto-Bold.ttf);
 }
 
 @font-face {
   font-family: "Inter";
-  src: url(../../../assets/fonts/inter/Inter-VariableFont_opszwght.ttf);
+  src: url(../../assets/fonts/inter/Inter-VariableFont_opszwght.ttf);
 }
 
 @font-face {
   font-family: "Playfair Display";
-  src: url(../../../assets/fonts/playfair/PlayfairDisplay-Regular.ttf);
+  src: url(../../assets/fonts/playfair/PlayfairDisplay-Regular.ttf);
 }
 
 @font-face {
   font-family: "Lucida";
-  src: url(../../../assets/fonts/lucida/lucidasansunicode.ttf);
+  src: url(../../assets/fonts/lucida/lucidasansunicode.ttf);
 }
 
 body {
@@ -50,7 +50,7 @@ body {
 
   &__header {
     padding-top: 154px;
-    @include bg_image("../../../assets/images/header/header-image-giraffe.png");
+    @include bg_image("../../assets/images/header/header-image-giraffe.png");
     background-position: center right 20px;
   }
 
