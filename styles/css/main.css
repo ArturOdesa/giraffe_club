@@ -204,7 +204,7 @@ body {
 .header {
   background-color: rgba(222, 116, 43, 0.9);
   min-height: 1080px;
-  background-image: url("../../../assets/images/header/header-triangle.png");
+  background-image: url("../../assets/images/header/header-triangle.png");
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -328,7 +328,7 @@ body {
 .benefits__body-list {
   list-style-type: none;
   margin: 0 auto;
-  background-image: url("../../../assets/images/section/benefits/bg-left.png"), url("../../../assets/images/section/benefits/bg-right.png");
+  background-image: url("../../assets/images/section/benefits/bg-left.png"), url("../../assets/images/section/benefits/bg-right.png");
   background-repeat: no-repeat;
   background-position: left bottom 16px, right bottom 16px;
   padding: 0 418px;
@@ -373,7 +373,7 @@ body {
 .education__body-top-right {
   width: 956px;
   height: 505px;
-  background-image: url("../../../assets/images/section/education/education_bg.png");
+  background-image: url("../../assets/images/section/education/education_bg.png");
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 14px;
@@ -581,7 +581,7 @@ body {
   padding-top: 48px;
   border-bottom: solid 2px #fcfcfc;
   text-align: left;
-  background-image: url("../../../assets/images/section/references/bg_image_references.png");
+  background-image: url("../../assets/images/section/references/bg_image_references.png");
   background-repeat: no-repeat;
   background-position: right bottom -5px;
 }

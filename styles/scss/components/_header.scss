@@ -5,7 +5,7 @@
   background-color: $bg_color;
   min-height: 1080px;
 
-  @include bg_image("../../../assets/images/header/header-triangle.png");
+  @include bg_image("../../assets/images/header/header-triangle.png");
 
   background-position: right center;
 
